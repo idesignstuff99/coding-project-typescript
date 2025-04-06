@@ -1,0 +1,100 @@
+{
+  "genre": [
+    {
+      "id": "1",
+      "genres_type": "Sci-Fi"
+    },
+    {
+      "id": "2",
+      "title": "Romance"
+    },
+    {
+      "id": "3",
+      "title": "Action"
+    },
+    {
+      "id": "4",
+      "title": "Horror"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genres_type": "Sci-Fi",
+      "img": "./src/images/Inception.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Notebook",
+      "genres_type": "Romance",
+      "img": "./src/images/Notebook.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Matrix",
+      "genres_type": "Sci-Fi",
+      "img": "./src/images/Matrix.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Witch",
+      "genres_type": "Horror",
+      "img": "./src/images/Witch.jpg"
+    },
+    {
+      "title": "A Working Man",
+      "genreId": 3,
+      "genres_type": "Action",
+      "img": "./src/images/workingMan.jpg",
+      "id": "jmbMg61"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "author": "Leo",
+      "text": "Amazing!",
+      "stars": 5,
+      "moviedId": 1
+    },
+    {
+      "id": "2",
+      "author": "Jacob",
+      "text": "Snooze!",
+      "stars": 1,
+      "moviedId": 2
+    },
+    {
+      "id": "3",
+      "author": "Neo",
+      "text": "Can't relate!",
+      "stars": 4,
+      "moviedId": 3
+    },
+    {
+      "id": "4",
+      "author": "Scarlett",
+      "text": "Scary",
+      "stars": 5,
+      "moviedId": 4
+    },
+    {
+      "id": "5",
+      "author": "Bubbles",
+      "text": "Action pack",
+      "stars": 3,
+      "moviedId": 5
+    },
+    {
+      "id": "6",
+      "author": "Sonia",
+      "text": "Back in time!",
+      "stars": 2,
+      "moviedId": 6
+    }
+  ],
+  "notifications": {
+    "count": 10
+  }
+}

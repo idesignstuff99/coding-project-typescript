@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+  
+    <div class="container mt-5">
+      <button onclick="onFetchMoviesClick()" class="btn btn-primary btn-lg">Get Movies</button>
+      <button onclick="onCreateMovieClick()" class="btn btn-success mx-3 btn-lg">Create Movie</button>
+      <button onclick="onUpdateMovieClick()" class="btn btn-primary mx-3 btn-lg">Update Movie</button>
+      <button onclick="onDeleteMovieClick()" class="btn btn-danger mx-3 btn-lg">Delete Movie</button>
+      <div class="card-group" id="movies-container">
+         
+      </div>
+  </div>
+
+
+
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
